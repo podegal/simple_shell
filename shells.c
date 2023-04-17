@@ -12,6 +12,7 @@ extern char **environ;
 /**
 * read_line - gets input
 *
+*
 * Return: string of characters inputed
 */
 char *read_line()
