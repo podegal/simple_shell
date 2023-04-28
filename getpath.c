@@ -1,7 +1,8 @@
 #include "simple_shell.h"
 
 /**
- * getpath - accepts PATH string, splits it to tokens, then concats with "/" & cmd
+ * getpath - accepts PATH string, splits it to tokens, then concats
+ * with "/" & cmd
  *@command: command passed from getline in main
  *
  * Return: new_path for use in cmd_read

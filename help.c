@@ -1,7 +1,8 @@
 #include "simple_shell.h"
 
 /**
- **mystrcat(char *dest, char *src)- a custom function that concatenates two strings.
+ **mystrcat(char *dest, char *src)- a custom function that
+ * concatenates two strings.
  *@dest: Char input
  *@src: Char input
  *
@@ -29,7 +30,8 @@ char *mystrcat(char *dest, char *src)
  * @str1: first string
  * @str2: second string to compare to first string
  *
- * Return: <0 if str1 is less than str2, 0 for equal, >0 if str1 is greater than str2
+ * Return: <0 if str1 is less than str2, 0 for equal,
+ * >0 if str1 is greater than str2
  */
 int mystrcmp(char *str1, char *str2)
 {
@@ -54,7 +56,7 @@ int mystrcmp(char *str1, char *str2)
  */
 char *mystrcpy(char *dest, char *src)
 {
-	int len; 
+	int len;
 	int ab;
 
 	len = mystrlen(src);
